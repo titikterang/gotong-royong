@@ -34,6 +34,7 @@ func main() {
 		go wk.AddNewEvent(showText)
 	}
 	wg.Add(1)
+	//your other logic / business flow in here
 	wg.Wait()
 }
 ```
